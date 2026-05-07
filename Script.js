@@ -7,3 +7,12 @@ function alterarTexto() {
     // Altera o conteúdo do parágrafo
     paragrafo.innerHTML = "O JavaScript alterou este texto!";
 }
+// Função chamada quando o usuário clica no botão
+function voltarTexto() {
+
+    // Localiza o elemento com id="texto"
+    let paragrafo = document.getElementById("texto");
+
+    // Altera o conteúdo do parágrafo
+    paragrafo.innerHTML = "Esse é o texto alterado!";
+}
